@@ -1,7 +1,18 @@
 body{
     background-color: hsl(0, 0%, 86%);
-    
 }
+@font-face {
+    font-family: displayFont;
+    src: url('../age-calculator-app-main/assets/fonts/Poppins-ExtraBoldItalic.ttf');
+  }
+@font-face {
+    font-family: labelFont;
+    src: url('../age-calculator-app-main/assets/fonts/Poppins-Regular.ttf');
+  }
+@font-face {
+    font-family: inputFont;
+    src: url('../age-calculator-app-main/assets/fonts/Poppins-Bold.ttf');
+  }
 .board{
     margin: 70px 400px;
     background-color: white; 
@@ -12,6 +23,7 @@ label{
     font-size:12px ;
     font-weight: bold;
     color: hsla(0, 0%, 20%, 0.784);
+    font-family: labelFont;
 }
 input{
     width: 100px;
@@ -21,6 +33,7 @@ input{
     padding: 5px 15px 5px 5px ;
     font-weight: 700;
     color: hsl(0, 1%, 44%);
+    font-family: inputFont;
 }
 .input-container{
     display: flex;
@@ -37,12 +50,14 @@ button{
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-left: 300px;
 }
 span{
     font-size: 40px;
     margin-right: 10px;
     font-weight: 800;
     font-size: 50px;
+    font-family: displayFont;
 }
 #display-year, #display-month{
     color: hsl(259, 100%, 65%);
@@ -72,6 +87,7 @@ a{
         font-size:10px ;
         font-weight: bold;
         color: hsla(0, 0%, 20%, 0.784);
+        font-family: labelFont;
     }
     input{
         width: 100px;
@@ -81,6 +97,7 @@ a{
         padding: 5px 15px 5px 5px ;
         font-weight: 700;
         color: hsl(0, 1%, 44%);
+        font-family: inputFont;
     }
     .input-container{
         display: flex;
@@ -88,6 +105,7 @@ a{
     .age-display{  
         margin-top: 10px;
         margin-bottom: 25px;
+        margin-left: 70px;
     }
     button{
         background-color: hsl(259, 100%, 65%);
@@ -97,12 +115,15 @@ a{
         border: none;
         border-radius: 5px;
         font-weight: bold;
+        margin-left: 150px;
     }
     span{
         font-size: 40px;
         margin-right: 10px;
         font-weight: 800;
         font-size: 50px;
+        font-family: displayFont;
+        
     }
     #display-year, #display-month{
         color: hsl(259, 100%, 65%);
