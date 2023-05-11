@@ -1,5 +1,5 @@
 function calculateAge(){
-    var dob = document.getAnimations("day").value;
+    var dob = document.getElementById("day").value;
     var mob = document.getElementById("month").value;
     var yob = document.getElementById("year").value;
     var date = new Date();
@@ -15,10 +15,10 @@ function calculateAge(){
         currentMonth = currentMonth + 12;
         currentYear = currentYear - 1;
     }
-    // var days = currentDay - dob;
+    var days = currentDay - dob;
     var months = currentMonth - mob;
     var years = currentYear - yob;
-    // document.getElementById("display-day").innerHTML = days;
+    document.getElementById("display-day").innerHTML = days;
     document.getElementById("display-month").innerHTML = months ;
     document.getElementById("display-year").innerHTML = years ;
 }

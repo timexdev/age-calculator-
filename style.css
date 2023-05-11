@@ -14,7 +14,7 @@ body{
     src: url('../age-calculator-app-main/assets/fonts/Poppins-Bold.ttf');
   }
 .board{
-    margin: 70px 400px;
+    margin: 50px 400px;
     background-color: white; 
     padding: 30px;
     border-radius: 20px 20px 100px 20px;
@@ -40,7 +40,7 @@ input{
 }
 .age-display{
     
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 button{
     background-color: hsl(259, 100%, 65%);
@@ -59,7 +59,7 @@ span{
     font-size: 50px;
     font-family: displayFont;
 }
-#display-year, #display-month{
+#display-year, #display-month, #display-day{
     color: hsl(259, 100%, 65%);
 }
 footer{
@@ -78,7 +78,7 @@ a{
         
     }
     .board{
-        margin: 50px 20px;
+        margin: 30px 20px;
         background-color: white; 
         padding: 20px;
         border-radius: 15px 15px 80px 15px;
@@ -125,7 +125,7 @@ a{
         font-family: displayFont;
         
     }
-    #display-year, #display-month{
+    #display-year, #display-month, #display-day{
         color: hsl(259, 100%, 65%);
     }
     footer{
